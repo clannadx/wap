@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width",user-scalable="no" />
+		<title></title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/activity.css" />
+		<link rel="stylesheet" href="css/swiper.min.css" />
+	</head>
+<script>
+		setRem();
+		window.addEventListener("orientationchange", setRem);
+		window.addEventListener("resize", setRem);
+		function setRem() {
+		var html = document.querySelector("html");
+		var width = html.getBoundingClientRect().width;
+		html.style.fontSize = width / 6.4 + "px";
+	}
+	</script>
+	<body>
+	<div class="head">
+		
+	</div>
+	<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+        	<img src="img/banner01.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+        	<img src="img/banner02.jpg" alt="" />
+        </div>        
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>        
+</div>
+	<div class="act-title">
+		<h1>火热进行中</h1>
+	</div>
+	<div class="act-lists">
+		<ul>
+			<li>
+				<a href="#">
+				<dl class="tip">
+					<dt>【双旦嘉年华】iphone 7p每天送</dt>
+					<dd>2016.12.22-2016.1.11</dd>
+				</dl>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+				<dl class="tip">
+					<dt>【重磅回馈】购优惠套餐包 享短信0.036元/条</dt>
+					<!--<dd>2016.12.22-2016.1.11</dd>-->
+				</dl>
+				</a>
+			</li>
+		</ul>
+	</div>
+	</body>
+	<script src="js/swiper.min.js"></script>
+	<script> 
+var mySwiper = new Swiper('.swiper-container', {
+	autoplay: 3000,//可选选项，自动滑动
+	slidesPerView: 1,
+    spaceBetween: 0,
+    loop: true, //循环
+    pagination: '.swiper-pagination', //分页
+    paginationClickable: true,
+    
+})
+</script>
+</html>

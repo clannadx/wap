@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/act_spring.css" />
+	</head>
+	<script>
+		setRem();
+		window.addEventListener("orientationchange", setRem);
+		window.addEventListener("resize", setRem);
+		function setRem() {
+		var html = document.querySelector("html");
+		var width = html.getBoundingClientRect().width;
+		html.style.fontSize = width / 6.4 + "px";
+}
+	</script>
+	<body>
+		<div class="wrap01"></div>
+		<div class="wrap02"></div>
+		<div class="wrap03 ">
+			<ul class="list1 clearfix">
+				<li>
+					<a href="#" class="list1-btn"></a>
+				</li>
+				<li>
+					<a href="#" class="list1-btn"></a>
+				</li>
+
+			</ul>
+			<ul class="list2 clearfix">
+				<li>
+					<a href="#" class="list1-btn"></a>
+				</li>
+			</ul>
+		</div>
+		<div class="wrap04">
+			<h3>活动规则</h3>
+			<ul>
+				<li>1、套餐包购买金额不支持退款，不支持更换套餐，有效期36个月；</li>
+				<li>2、套餐包不支持余额购买，每个账号购买次数不限；</li>
+				<li>3、系统短信套餐包适用任信了所有新老用户购买；</li>
+				<li>4、活动最终解释权归任信了所有。</li>
+			</ul>
+		</div>
+		<div class="wrap05">
+			<img class="ewm-foot" src="img/act_spring/ewm-foot.png" alt="" />
+			<p>长按关注任信了公众号 了解更多产品优惠</p>
+		</div>
+	</body>
+</html>
