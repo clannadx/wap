@@ -1,0 +1,113 @@
+
+body{
+	background-color: #3c0000;
+}
+.main{
+	background:url(../img/llhongbao-bg.jpg) no-repeat;
+	width:7.5rem;
+	height:12.18rem;
+	background-size:7.5rem 12.18rem ;
+}
+.header{
+	width: 7.5rem;
+	height: 3.4rem;
+	padding-top:0.7rem;
+}
+.h-logo{
+	width: 6.45rem;
+	height: 2.63rem;
+	background:url(../img/llhb-logo.png) no-repeat;
+	background-size:6.45rem 2.63rem ;
+	margin: 0 auto;
+}
+.wrap01{
+	width: 7.5rem;
+	height: 5.22rem;
+}
+.wrap01-bg{
+	width:7.29rem;
+	height:5.37rem;
+	background:url(../img/wrap01-bg.png) no-repeat;
+	background-size:7.29rem 5.37rem ;
+	margin: 0 auto;
+	padding:0.98rem  1.1rem 0 1.1rem;
+	font-size: 0.28rem;
+}
+.wrap01-bg dl{
+	width:5.1rem;
+	font-size: 0.28rem;
+	margin-bottom: 0.3rem;
+}
+.wrap01-bg dl dt{
+	width: 1.7rem;
+	float:left;
+	height:0.6rem ;
+	line-height: 0.6rem;
+}
+.wrap01-bg dl dd{
+	float:left;
+}
+.wrap01-bg dl dd input{
+	width: 3.3rem;
+	height: 0.6rem;
+	border: 2px solid #a51715;
+	font-size: 0.28rem;
+	padding-left:10px;
+
+}
+.wrap01-bg p{
+	font-size: 0.28rem;
+	height: 0.6rem;
+	line-height:0.6rem;
+	margin-bottom: 0.3rem;
+}
+.wrap01-bg ul{
+	width: 5.1rem;
+	margin-bottom: 0.3rem;
+	height: 0.62rem;
+}
+.wrap01-bg ul li{
+	width: 1.5rem;
+	height: 0.6rem;
+	line-height:0.6rem;
+	float: left;
+	text-align: center;
+	color: #666666;
+	margin-right:.25rem ;
+	
+}
+.wrap01-bg ul li.current{
+	background-color:#bb1717;
+	border: 1px solid #faa020;
+	color: #fff;
+}
+.wrap01-bg ul #ll-last{
+	margin-right: 0;
+}
+.llhb-btn{
+	display: block;
+	margin: 0 auto;
+	width:3rem;
+	height: 0.8rem;
+	background-color:#bb1717;
+	box-shadow: 0 0 10px #bb1717;
+	text-align: center;
+	line-height:0.8rem;
+	color:#fff;
+}
+.wrap02{
+	width: 6.8rem;
+	font-size: 0.24rem;
+	color: #fff;
+	text-align: justify;
+	margin: 0 auto;
+	margin-top:0.2rem ;
+}
+.wrap02 h3{
+	font-size: 0.24rem;
+	font-weight: normal;
+}
+
+.wrap02 ul>li{
+	line-height: 0.36rem;
+}

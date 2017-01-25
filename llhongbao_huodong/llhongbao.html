@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/llhongbao.css" />
+		<script>
+		setRem();
+		window.addEventListener("orientationchange", setRem);
+		window.addEventListener("resize", setRem);
+		function setRem() {
+		var html = document.querySelector("html");
+		var width = html.getBoundingClientRect().width;
+		html.style.fontSize = width / 7.5 + "px";
+}
+	</script>
+	</head>
+	<body>
+		<section class="main">
+			<div class="header">
+				<div class="h-logo">
+					
+				</div>
+			</div>
+			<div class="wrap01">
+					<div class="wrap01-bg">
+						<form action="">
+						<dl class="clearfix">
+							<dt>输入手机号：</dt>
+							<dd><input type="text" name="" id="" value="" /></dd>
+						</dl>
+						<p>选择运营商:</p>
+						<ul id="yys">
+							<li class="current" ontouchstart="show(0)">中国移动</li>
+							<li ontouchstart="show(1)">中国联通</li>
+							<li id="ll-last" ontouchstart="show(2)">中国电信</li>
+						</ul>
+						<a class="llhb-btn" href="#">提交并分享</a>
+						</form>
+					</div>
+			</div>
+			<div class="wrap02">
+				<h3>活动说明：</h3>
+				<ul>
+					<li>1.关注任信了微信公众号，在活动专区点击流量红包，参与此活动。</li>
+					<li>2.输入手机号并分享此链接加入任信了微信群即可免费获得30M全国通用流量。</li>
+					<li>3.分享的活动链接被小伙伴成功分享一次，则可额外获得10M全国通用流量，每个手机号码最多可获得100M全国通用流量。</li>
+					<li>4.活动日期：即日起至2017年2月14日。</li>
+					<li>5.本活动最终解释权归任信了所有。</li>
+				</ul>
+			</div>
+		</section>
+	</body>
+	<script>
+
+function show(index){
+		 var Oyys=document.getElementById('yys');
+		 var Oli=Oyys.getElementsByTagName('li');
+	for(var i=0;i<Oli.length;i++){
+		if(i==index){
+			Oli[i].className="current";
+		}
+		else{
+			Oli[i].className=null;
+		}
+	}
+}
+	</script>
+</html>
