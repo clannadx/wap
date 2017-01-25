@@ -15,6 +15,18 @@
 		var width = html.getBoundingClientRect().width;
 		html.style.fontSize = width / 7.5 + "px";
 }
+		function show(index){
+		 var Oyys=document.getElementById('yys');
+		 var Oli=Oyys.getElementsByTagName('li');
+	for(var i=0;i<Oli.length;i++){
+		if(i==index){
+			Oli[i].className="current";
+		}
+		else{
+			Oli[i].className=null;
+		}
+	}
+}
 	</script>
 	</head>
 	<body>
@@ -53,19 +65,5 @@
 			</div>
 		</section>
 	</body>
-	<script>
 
-function show(index){
-		 var Oyys=document.getElementById('yys');
-		 var Oli=Oyys.getElementsByTagName('li');
-	for(var i=0;i<Oli.length;i++){
-		if(i==index){
-			Oli[i].className="current";
-		}
-		else{
-			Oli[i].className=null;
-		}
-	}
-}
-	</script>
 </html>
